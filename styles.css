@@ -1,0 +1,35 @@
+:root {
+    --secondary-bg: #333;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 5vh 20vw;
+    background-color: #181818;
+}
+
+p, li {
+    font-size: 11pt;
+}
+
+.club {
+    padding: 2em;
+    margin-top: 2em;
+    display: block;
+    border-radius: 15px;
+    background-color: var(--secondary-bg);
+}
+
+.club > h2 {
+    margin-top: 0;
+}
+
+.club > ul {
+    margin-bottom: 0;
+}
